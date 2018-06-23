@@ -1,0 +1,36 @@
+#root{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.App {
+  width:100%;
+  height:100%;
+}
+.ant-layout{
+  height:100%;
+}
+.ant-layout-sider-children{
+  overflow-y: auto;
+}
+.App-logo-wrap{
+  padding:15px 0;
+  border-bottom: 1px solid #1890ff;
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  width: 46px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*滚动条样式*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #777;
+}
