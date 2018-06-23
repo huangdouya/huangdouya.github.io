@@ -11,7 +11,7 @@ import './components/App.css';
 
 //引入路由
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Route,
     Link
 } from 'react-router-dom';
